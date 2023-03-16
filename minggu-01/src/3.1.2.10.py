@@ -1,0 +1,2 @@
+s = 'supercalingfragilistincexpialindocius'
+len(s)
