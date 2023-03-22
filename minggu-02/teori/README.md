@@ -1,17 +1,25 @@
-BAB 1
+Berikut ini adalah ringkasan singkat dari setiap bagian pada materi BAB 4 tersebut:
 
-Python merupakan salah satu bahasa pemrograman yang paling populer. Python mudah digunakan dan menawarkan lebih banyak struktur dan dukungan untuk program besar daripada yang lain. Penerjemah Python dapat digunakan secara interaktif, membuatnya mudah untuk bereksperimen dengan fitur bahasa, menulis program satu kali, atau menguji fitur selama pengembangan perangkat lunak dari bawah ke atas.
-Python memungkinkan untuk menulis program dengan cara yang kompleks dan mudah dibaca karena beberapa alasan:
+Pernyataan if: Pernyataan if digunakan untuk menjalankan kode jika suatu kondisi bernilai benar (True), dan akan dilewati jika kondisinya salah (False).
 
-1. Tipe data lanjutan memungkinkan fungsi kompleks diekspresikan dalam satu kueri
-2. Kalimat dikelompokkan berdasarkan akun
-3. tidak perlu mendeklarasikan variabel atau argumen.
-Banyak perangkat lunak yang menggunakan bahasa Python, kita dapat menginstal Python secara langsung dan menggunakan kode Miniconda dan Visual Studio. Jika menggunakan VScode, kita perlu menginstal Extend Python yang ada di VScode. dan ketika kita menggunakan miniconda kita hanya perlu memanggilnya dengan mengetik _python_ . 
+Pernyataan for: Pernyataan for digunakan untuk mengulang suatu blok kode untuk setiap item dalam urutan tertentu, seperti daftar (list), tuple, atau string.
 
-BAB 2
+Pernyataan while: Pernyataan while digunakan untuk mengulang suatu blok kode selama kondisi tertentu bernilai benar (True), dan akan berhenti jika kondisi bernilai salah (False).
 
-Secara default, file sumber Python diperlukan sebagai pengkodean UTF-8. Pengkodean karakter dapat menggunakan karakter dari sebagian besar bahasa secara bersamaan. Untuk menampilkan semua karakter, editor harus mengenali bahwa file tersebut adalah UTF-8. Untuk mendeklarasikan penyandian, baris komentar khusus harus ditambahkan sebagai baris pertama file. 
+Pernyataan break dan continue: Pernyataan break digunakan untuk menghentikan loop saat ini dan keluar dari loop. Pernyataan continue digunakan untuk melompati satu iterasi loop saat ini dan melanjutkan ke iterasi berikutnya.
 
-BAB 3
+Pernyataan else pada loop: Pernyataan else pada loop digunakan untuk menjalankan kode setelah loop selesai dijalankan. Pernyataan else hanya akan dijalankan jika loop selesai dijalankan tanpa adanya pernyataan break.
 
-Python dapat digunakan sebagai kalkulator, untuk memanipulasi string atau untuk membuat daftar. Tipe data string ditandai dengan ('..') atau ("...") untuk dicetak. Python juga bisa menggabungkan 2 tipe data sekaligus menggunakan perintah Python yang ada. 
+Pernyataan pass: Pernyataan pass adalah pernyataan kosong yang digunakan sebagai penanda tempat kosong dalam blok kode. Pernyataan pass berguna ketika kita ingin menulis kode yang masih belum selesai.
+
+Fungsi def: Fungsi def digunakan untuk mendefinisikan fungsi di Python. Fungsi dapat menerima argumen dan mengembalikan nilai.
+
+Pernyataan return: Pernyataan return digunakan untuk mengembalikan nilai dari sebuah fungsi.
+
+Pernyataan global dan nonlocal: Pernyataan global digunakan untuk mengakses variabel global dari dalam fungsi. Pernyataan nonlocal digunakan untuk mengakses variabel dari luar fungsi saat kita berada dalam fungsi bertingkat.
+
+Pernyataan assert: Pernyataan assert digunakan untuk memeriksa apakah suatu kondisi bernilai benar (True), dan akan menghasilkan pesan kesalahan jika kondisinya salah (False).
+
+Pernyataan try dan except: Pernyataan try digunakan untuk mencoba menjalankan blok kode yang mungkin menimbulkan kesalahan. Pernyataan except digunakan untuk menangani kesalahan jika terjadi.
+
+Pernyataan raise: Pernyataan raise digunakan untuk memicu kesalahan secara manual.
