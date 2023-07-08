@@ -1,0 +1,7 @@
+Berikut ini adalah rangkuman dari materi Virtual Environments and Packages tersebut:
+
+- Materi ini membahas tentang konsep lingkungan virtual (virtual environment) dalam Python, yang merupakan mekanisme untuk membuat dan mengelola lingkungan Python yang terisolasi dari sistem utama, sehingga dapat menghindari konflik antara versi dan dependensi paket Python yang berbeda.
+- Lingkungan virtual dibuat dengan menggunakan modul `venv`, yang menyediakan perintah `pyvenv` atau `python -m venv` untuk membuat direktori baru yang berisi salinan interpreter Python, pustaka standar, dan skrip instalasi paket (`pip`).
+- Untuk mengaktifkan lingkungan virtual, perlu menjalankan skrip `activate` yang ada di dalam subdirektori `bin` atau `Scripts` dari direktori lingkungan virtual. Setelah itu, semua perintah Python dan pip akan menggunakan interpreter dan paket yang ada di dalam lingkungan virtual tersebut.
+- Untuk menonaktifkan lingkungan virtual, cukup menjalankan perintah `deactivate`, yang akan mengembalikan interpreter dan paket ke sistem utama.
+- Lingkungan virtual dapat digunakan untuk berbagai keperluan, seperti mengembangkan aplikasi dengan versi dan dependensi paket tertentu, menjalankan skrip atau notebook Python dengan lingkungan yang konsisten, melakukan pengujian atau debugging dengan lingkungan yang terkontrol, dan lain-lain.
